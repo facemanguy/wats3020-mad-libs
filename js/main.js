@@ -88,6 +88,9 @@ let adjective5 = prompt('Enter a descriptive adjective for the last time','Cute'
 
 let userNumber = prompt('Enter Your Favorite Number','83');
 
+//Enable if you want to force a number result
+//Number(userNumber);
+
 let number2 = userNumber ** 4;
 
 let number3 = number2 % 3;
