@@ -6,92 +6,90 @@
 // In order to achieve this goal, you will need to write prompt() statements
 // to collect input from the user. The input you collect will be used to
 // generate the story.
+
+
+///////////////////////////////////////////////////////////////////////////
+// The following Section creates a series of prompts for the user to fill out
+// Their answers are used to fill out a poem mad lib later on
 //
-//
-// TODO: Write a prompt statement like the one below for each of the
-// variables listed.
+// The Intention of each variable is listed above its prompt for reference
+// but can be removed later if deemed unnecessary cluter
 
 let honorific = prompt('Please enter an honorific title (e.g. Mister or Colonel)','Mrs.');
 
-// Using the same prompt() command, populate the following variables:
-//
-// TODO: A variable named "authorName" for authorial attribution.
+// "authorName" for authorial attribution.
 let authorName = prompt('What is your full name?','Jim');
 
-// TODO: A variable named "adjective1" for a word used to describe something.
+// "adjective1" for a word used to describe something.
 let adjective1 = prompt('Enter a descriptive adjective','Warm');
 
-// TODO: A variable named "vehicle" for a mode of transation (e.g. plane, boat, etc.).
+// "vehicle" for a mode of transation (e.g. plane, boat, etc.).
 let vehicle = prompt('Name a Transportation Vehicle','Sailboat');
 
-// TODO: A variable named "vehiclePart" for a part of the vehicle you just named.
+// "vehiclePart" for a part of the vehicle you just named.
 let vehiclePart = prompt('Name a part of that Vehicle','Mast');
 
-// TODO: A variable named "parking" for a location where you park the vehicle you just named.
+// "parking" for a location where you park the vehicle you just named.
 let parking = prompt('Where would you Park/Store that Vehicle?','Harbor');
 
-// TODO: A variable named "precious" for a precious object.
+// "precious" for a precious object.
 let precious = prompt('Name a precious object','Amulet');
 
-// TODO: A variable named "noiseMaker" for something that makes a sound.
+// "noiseMaker" for something that makes a sound.
 let noiseMaker = prompt('Name a device that makes sound','Siren');
 
-// TODO: A variable named "crowdBehavior" for something that people do together as a group.
+// "crowdBehavior" for something that people do together as a group.
 let crowdBehavior = prompt('Name a group activity','Dance');
 
-// TODO: A variable named "adjective2" for a word used to describe something.
+// "adjective2" for a word used to describe something.
 let adjective2 = prompt('Enter a descriptive adjective','Comfortable');
 
-// TODO: A variable named "adjective3" for a word used to describe something.
+// "adjective3" for a word used to describe something.
 let adjective3 = prompt('Enter a descriptive adjective again','Slick');
 
-// TODO: A variable named "color" for the name of a color.
+// "color" for the name of a color.
 let color = prompt('Enter a color','Azure');
 
-// TODO: A variable named "familyMember" for the name of a family relationship (e.g. sister, father, etc.).
+// "familyMember" for the name of a family relationship (e.g. sister, father, etc.).
 let familyMember = prompt('Name a Familial role (e.g. sister, father, etc.)','Grandfather');
 
-// TODO: A variable named "organ" for the name of a body organ (e.g. heart, liver, spleen, etc.).
+// "organ" for the name of a body organ (e.g. heart, liver, spleen, etc.).
 let organ = prompt('Name a Bodily Organ (e.g. heart, liver, spleen, etc.)','Lung');
 
-// TODO: A variable named "bodyPart1" for the name of a body part.
+// "bodyPart1" for the name of a body part.
 let bodyPart1 = prompt('Name a Body Part','Leg');
 
-// TODO: A variable named "bodyPart2" for the name of a body part.
+// "bodyPart2" for the name of a body part.
 let bodyPart2 = prompt('Name another Body Part','Eye');
 
-// TODO: A variable named "bodyPart3" for the name of a body part.
+// "bodyPart3" for the name of a body part.
 let bodyPart3 = prompt('Name one more Body Part','Finger');
 
-// TODO: A variable named "thing" for an object.
+// "thing" for an object.
 let thing = prompt('Name an object','Desk');
 
-// TODO: A variable named "thing2" for an object you might give somebody you love.
+// "thing2" for an object you might give somebody you love.
 let thing2 = prompt('Enter the Name of a loving gift','Necklace');
 
-// TODO: A variable named "thing3" for an object you might give somebody you like.
+// "thing3" for an object you might give somebody you like.
 let thing3 = prompt('Enter an object you might give to someone you like','Candy');
 
-// TODO: A variable named "adjective4" for a word used to describe the vehicle.
+// "adjective4" for a word used to describe the vehicle.
 let adjective4 = prompt('Enter a descriptive adjective once more','Massive');
 
-// TODO: A variable named "adjective5" for a word used to describe the vehicle.
+// "adjective5" for a word used to describe the vehicle.
 let adjective5 = prompt('Enter a descriptive adjective for the last time','Cute');
 
 ////////////////////////////////////////////////////////////////////////
 // Section Numbers
 //
-// The poem we are using has section numbers. Let's allow the user to
-// generate their own.
-//
-// TODO: To begin with, prompt the user to collect their favorite number that is not zero.
-// Call this variable "userNumber".
+// The poem we are using has section numbers. We allow the user to
+// generate their own. User number cannot be a 0;
+
 let userNumber = prompt('Enter Your Favorite Number','83');
 
-// TODO: generate TWO more numbers called "number2" and "number 3".
-// Use any operator you would like to add, multiply, divide, or otherwise
-// change the number that the user submitted.
 let number2 = userNumber ** 4;
+
 let number3 = number2 % 3;
 
 // DO NOT EDIT BELOW THIS LINE /////////////////////////////////////////
